@@ -11,7 +11,8 @@ This application covers the bellow features
 2. i18n
 3. Aurelia fluent validation.
 4. http service
-5. Aurelia routing etc
+5. Aurelia routing
+6. Aurelia dialog service etc
 
 
 ## Run dev app
