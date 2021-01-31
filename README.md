@@ -1,4 +1,4 @@
-# `Application_Process_WebClient`
+# `Aurelia_Basic_WebClient`
 
 This project is bootstrapped by [aurelia-cli](https://github.com/aurelia/cli).
 
