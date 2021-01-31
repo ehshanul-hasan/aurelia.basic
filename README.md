@@ -4,6 +4,16 @@ This project is bootstrapped by [aurelia-cli](https://github.com/aurelia/cli).
 
 For more information, go to https://aurelia.io/docs/cli/webpack
 
+
+This application covers the bellow features
+
+1. Bootstrap form renderer
+2. i18n
+3. Aurelia fluent validation.
+4. http service
+5. Aurelia routing etc
+
+
 ## Run dev app
 
 Run `npm start`, then open `http://localhost:8080`
