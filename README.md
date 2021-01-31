@@ -41,3 +41,45 @@ Run `npm run build`, or the old way `au build --env prod`.
 Run `au test` (or `au jest`).
 
 To run in watch mode, `au test --watch` or `au jest --watch`.
+
+
+
+# Basic Commands For Library Installation
+
+npm install bootstrap --save
+
+npm install jquery --save
+
+npm install popper.js --save
+
+app.html
+<template>
+  <require from="bootstrap/css/bootstrap.css"></require>
+  <h1>${message}</h1>
+</template>
+
+
+app.ts
+import 'bootstrap';
+
+npm i aurelia-form-renderer-bootstrap --save
+
+npm install aurelia-validation --save
+
+main.ts
+
+aurelia.use
+  .standardConfiguration()
+  .plugin('aurelia-validation')
+  .developmentLogging();
+
+npm install aurelia-fetch-client
+
+npm install aurelia-dialog
+
+npm install aurelia-i18n
+--npm install i18next i18next-xhr-backend
+
+npm install i18next-resource-store-loader
+
+
