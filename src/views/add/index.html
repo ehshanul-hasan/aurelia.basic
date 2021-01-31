@@ -1,0 +1,79 @@
+<template>
+  <div class="card-block">
+    <h4 class="card-title"> ${ 'add' | t}</h4>
+    <form ref="myForm" class="form card">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" >
+            <div class="form-group">
+              <label for="name">${ 'name' | t}</label>
+              <input name="name" class="form-control"
+                      value.bind="applicant.name & validate"></input>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="familyName">${ 'familyname' | t}</label>
+              <input name="familyName" class="form-control"
+                      value.bind="applicant.familyName & validate"></input>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6" >
+            <div class="form-group">
+              <label for="address">${ 'address' | t}</label>
+              <input name="address" class="form-control"
+                      value.bind="applicant.address & validate"></input>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="countryOfOrigin">${ 'country_of_origin' | t}</label>
+              <input name="countryOfOrigin" class="form-control"
+                      value.bind="applicant.countryOfOrigin & validate"></input>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6" >
+            <div class="form-group">
+              <label for="emailAddress">${ 'email_address' | t}</label>
+              <input name="emailAddress" class="form-control"
+                      value.bind="applicant.emailAddress & validate"></input>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="age">${ 'age' | t}</label>
+              <input name="age" class="form-control"
+                      value.bind="applicant.age & validate"></input>
+            </div>
+          </div>
+          <div class="col-md-2" >
+            <div class="form-check form-group">
+              <input class="form-check-input" type="checkbox" name="hired" checked.bind="applicant.hired & validate">
+              <label class="form-check-label" for="hired">
+                ${ 'hired' | t}
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  
+    
+   <div class="card-footer">
+      <button type="button" class="btn btn-primary col-sm-3 push-sm-9" 
+      disabled.bind="!isFormDirty" click.trigger ="reset()">
+      ${ 'reset' | t}
+      </button>  
+      <button type="button" class="btn btn-primary col-sm-3 push-sm-9" disabled.bind="!sendActive" click.trigger ="addApplicant()">
+        ${ 'send' | t}
+      </button>  
+   </div>
+  </div>
+</template>

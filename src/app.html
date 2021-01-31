@@ -1,0 +1,18 @@
+<template bindable="router">
+  <require from="./assets/styles/main.css"></require>
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+          <li class="nav-item" repeat.for = "row of router.navigation">
+            <a class="${row.isActive ? 'active nav-link' : 'nav-link'}"  href.bind = "row.href">${row.title}</a>
+          </li>
+        </ul>
+      </div>
+      <div class="card-body">
+        <router-view></router-view>
+      </div>
+    </div>
+  </div>
+
+</template>

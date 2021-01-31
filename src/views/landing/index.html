@@ -1,0 +1,18 @@
+<template>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">${'name' | t}</th>
+            <th scope="col">${'familyname' | t}</th>
+            <th scope="col">${'hired' | t}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr repeat.for="item of applicants">
+            <td>${item.name}</td>
+            <td>${item.familyName}</td>
+            <td>${item.hired}</td>
+          </tr>
+        </tbody>
+      </table>
+</template>

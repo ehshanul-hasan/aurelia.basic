@@ -1,0 +1,23 @@
+{
+    "enter.firstname": "Enter Firstname",
+    "add": "Add Applicant",
+    "name": "Name",
+    "familyname": "FamilyName",
+    "address": "Address",
+    "country_of_origin": "Country Of Origin",
+    "email_address": "Email Address",
+    "age": "Age",
+    "hired": "Hired",
+    "add_applicant": "Add Applicant",
+    "applicant_list" : "Applicant List",
+    "reset" : "Reset",
+    "send" : "Send",
+    "are_you_sure": "Are you sure you want to reset the form?",
+    "this_field_must_be_minimum_5_charecter": "This field must consist of at least 5 letters",
+    "this_field_must_be_minimum_10_charecter": "This field must consist of at least 10 letters",
+    "this_field_is_required" : "This is a required field",
+    "invalid_email": "Email address is invalid",
+    "age_must_be_beyween_20_60" : "Age must be between 20 to 60",
+    "age_is_not_correctly_formatted" : "The age is not formatted correctly"
+}
+  

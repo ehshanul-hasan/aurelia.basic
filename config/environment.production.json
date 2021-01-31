@@ -1,0 +1,6 @@
+{
+  "debug": false,
+  "testing": false,
+  "baseUrl": "https://localhost:44355/api/",
+  "currentLang": "de"
+}
