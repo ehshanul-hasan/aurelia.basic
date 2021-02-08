@@ -43,7 +43,8 @@ Run `au test` (or `au jest`).
 
 To run in watch mode, `au test --watch` or `au jest --watch`.
 
-
+This application is served by the .net 5 API https://github.com/ehshanul-hasan/Dot.Net.Core.CRUD
+a similar client app with angular is also available in https://github.com/ehshanul-hasan/angular.basic
 
 # Basic Commands For Library Installation
 
